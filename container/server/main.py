@@ -39,9 +39,9 @@ def authenticate(token):
     try:
         appsecret = os.environ["appsecret"]
         payload = jwt.decode(token, appsecret)
-        return {"status": 200, "message": "Successfully Authenticated!", "data": payload}
+        return {"data": payload}
     except Exception as e:
-        return {"status": 401, "message": "Authentication Failed! Please Login Again!"}
+        return None
 # ------------------------------------------------
 
 # Build the LogIn functionality 
