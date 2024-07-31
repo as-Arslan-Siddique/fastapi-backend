@@ -74,7 +74,7 @@ def authenticate(token):
         payload = jwt.decode(token, appsecret)
         return {"data": payload}
     except Exception as e:
-        raise None
+        return None
 ```
 
 ## Usage
