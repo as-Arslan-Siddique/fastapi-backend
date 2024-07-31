@@ -33,8 +33,8 @@ password="$2a$10$0WEY66JJM4dFvmYZq37/X.fAIZwGq.olZ/B7JS7H1FFQWw0dE0Bq." # passwo
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/fastapi-baseline-app.git
-   cd fastapi-baseline-app
+   git clone https://github.com/yourusername/fastapi-backend.git
+   cd fastapi-backend
    ```
 
 2. **Run the Application**:
